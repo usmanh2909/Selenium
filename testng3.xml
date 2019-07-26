@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="test" thread-count="4">
+  <test thread-count="5" name="Personal Loan">
+  <groups>
+  <run>
+  	<include name="Smoke"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="test.First"/>
+      <class name="test.sec"/>
+      <class name="test.third"/>
+    </classes>
+  </test>
+  
+
+</suite> 
